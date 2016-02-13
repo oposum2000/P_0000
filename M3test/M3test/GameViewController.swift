@@ -55,6 +55,7 @@ class GameViewController:UIViewController, MTKViewDelegate {
     let inflightSemaphore = dispatch_semaphore_create(MaxBuffers)
     var bufferIndex = 0
     
+    //sdsdsddsd
     // offsets used in animation
     var xOffset:[Float] = [ -1.0, 1.0, -1.0 ]
     var yOffset:[Float] = [ 1.0, 0.0, -1.0 ]
